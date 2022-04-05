@@ -1,0 +1,31 @@
+.header{
+    background-color: #555555;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.titulo{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.masterList{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+ display:  flex;
+ list-style: none;
+ overflow-x: auto;
+ margin: 0;
+}
+.list li{    
+    padding: 0 10px 5px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border 50ms linear;
+}
+
+.list li:hover{
+    border-bottom:  2px solid cornflowerblue;
+}

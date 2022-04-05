@@ -1,0 +1,35 @@
+.lista {
+    list-style: none;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.subilhado {
+    text-decoration: line-through;
+}
+
+.listaConcluidos {
+    transition: height 100ms linear;
+    height: 35px;
+    overflow: hidden;
+}
+
+.showLista {
+    height: max-content;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: background color 100ms linear;
+    align-items: center;
+    box-sizing: border-box;
+    height: 35px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.titulo:active {
+    background-color: rgb(146, 146, 146);
+}
