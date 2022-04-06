@@ -6,6 +6,3 @@
 ## Como rodar a aplicação
 `ps: para mobile`
 - execute o comando `npm run dev`
-
-
-## Em desenvolvimento
