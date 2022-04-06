@@ -5,4 +5,5 @@
 
 ## Como rodar a aplicação
 `ps: para mobile`
+- execute o comando `npm i`
 - execute o comando `npm run dev`
